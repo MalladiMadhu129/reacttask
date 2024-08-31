@@ -1,0 +1,27 @@
+/* src/App.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  padding: 20px;
+}
+
+.tabs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.tabs button {
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.tab-content {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
